@@ -18,8 +18,8 @@ main img {
     border: 1px;
     padding: 2px;
     background-color: #eee;
-    color: 333;
-    box-shadow: 0 0 10px solid rgb(0 0 0 / 0.2);
+    color: #333;
+    box-shadow: 0 0 30px gray;
 }
 
 h1 {
