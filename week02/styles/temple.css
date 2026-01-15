@@ -28,7 +28,8 @@ text-align: center;
 }
 
 h2 {
-    border-bottom: 10px #222;
+    margin: 10px;
+    border-bottom:  1px solid #0e0d0d;
 }
 
 img {
@@ -43,12 +44,15 @@ section {
     padding: 10px;
     background-color: #abe;
     font-size: .9rem;
-
 }
 
 section p {
-    margin: 10px;
+    margin: 10px
+}
 
+ul {
+   margin: 10px 20px 0px;
+   padding: 10px;
 }
 
 footer {
