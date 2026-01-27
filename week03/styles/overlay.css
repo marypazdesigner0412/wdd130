@@ -11,13 +11,13 @@ main {
 }
 h1 {
     text-align: center;
-    font-size: 1.5 rem;
+    font-size: 1.5rem;
     text-shadow: 3px 3px 5px #777;
 }
 
 .herodiv {
     margin: 10px auto;
-     /* If removed, what happens? */
+    position: relative; /* If removed, what happens? */
 }
 
 .herodiv img {
@@ -28,9 +28,7 @@ h1 {
 
 .stats {
     position: absolute;
-    top: 25px;
-    right: 25px;
-    bottom: 25px;
+    bottom: 15px;
     left: 15px;
     background: radial-gradient(#eee, #323A06);
     border: 1px solid #000;
@@ -41,7 +39,7 @@ h1 {
 h2 {
     text-shadow: 0 0 15px #333;
     border-bottom: 1px solid #555;
-    margin-bottom: 0.rem;
+    margin-bottom: 0.3rem;
 }
 
 footer {
