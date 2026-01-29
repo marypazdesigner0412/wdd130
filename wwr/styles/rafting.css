@@ -81,7 +81,7 @@ h1 {
 }
 
 .hero article img {
-    float: left;
+    float: right;
     margin: 5px;
     width: 200px;
     border: #264653;
