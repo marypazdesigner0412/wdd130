@@ -26,12 +26,6 @@ header, main, footer {
     margin: 0 auto;
 }
 
-header nav {
-    display: block;
-    justify-content: flex-start;
-    align-items: center;
-    unicode-bidi: isolate;
-}
 
 h1, h2 {
     font-family: var(--heading-font);
