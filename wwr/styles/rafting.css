@@ -9,7 +9,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    border
+    box-sizing: border-box;
 }
 
 body {
@@ -78,7 +78,7 @@ header, footer, main, section {
     align-self: center;
     margin-top: -500px;
     margin-bottom: 10px;
-    color: var(--accent2-color);
+    color: white;
     
 }
 
@@ -151,6 +151,7 @@ p {
 }
 
 .history-container {
+    position: relative;
     display: flex;
     border: 5px;
     justify-content: center;
@@ -234,7 +235,7 @@ figure {
     justify-content: space-between;
     align-items: center;
     border: 1px white;
-    color: white;
+    color: var(--accent1-color);
     text-align: center;
     margin-top: 12px;
 
