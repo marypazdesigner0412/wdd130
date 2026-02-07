@@ -8,7 +8,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
     text-decoration: none;
     border
 }
@@ -23,7 +22,8 @@ body {
 
 header, footer, main, section {
     border: 1px;
-    padding: px;
+    width: 840px;
+    margin: 0 auto
 }
 
 .main-header {
@@ -62,13 +62,32 @@ header, footer, main, section {
 }
 
 .hero {
+    position: relative;
     text-align: center;
     margin-top: 10px;
+    padding: 0px;
+    text-align: left;
+
+}
+
+.hero h1 {
+    max-height: 50px;
+    text-align: center;
+    font-family: var(--heading-font);
+    padding: 10px;
+    align-self: center;
+    margin-top: -500px;
+    margin-bottom: 10px;
+    color: var(--accent2-color);
     
 }
 
-.hero imge {
-    position: relative
+
+.hero img {
+    display: block;
+    height: auto;
+    width: 100%
+
 }
 
 .hero-content {
@@ -85,8 +104,39 @@ header, footer, main, section {
 
 }
 
-.small-image {
+.hero article {
+    background-color: var(--accent2-color);
+    margin-left: 25px;
+    margin-right: 25px;
+    position: absolute;
+
+
+}
+
+
+.hero article img {
     float: right;
+    width: 200px;
+    border: var(--accent1-color);
+    margin: 35px;
+    box-shadow: 0 0 10px var(--accent1-color);
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 16px;
+    padding: 8px
+}
+
+.small-image {
     width: 200;
     flex-shrink: 0;
 }
@@ -95,15 +145,19 @@ header, footer, main, section {
     background-color: var(--accent2-color);
     padding: 10px;
     margin: 8px auto;
-    margin-top: 20px;
+    margin-top: 455px;
+    text-align: center;
+    
 }
 
 .history-container {
     display: flex;
-    border: 1px;
+    border: 5px;
     justify-content: center;
     align-items: center;
     gap:30px;
+    width: 840px;
+    margin: 0 auto
 
 }
 
@@ -111,6 +165,7 @@ header, footer, main, section {
     flex: 1;
     text-align: left;
     margin-left: 15px;
+    
 }
 
 .history-image {
@@ -119,23 +174,36 @@ header, footer, main, section {
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    
     
 }
 
 .adventure {
     text-align: center;
-    padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     background-color: var(--accent2-color);
-    margin-top: 20px;
+    margin-top: 10px;
+    width: 840px;
+    margin: 0 auto
+    
+}
+
+.adventure h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+
 }
 
 .gallery {
     display: flex;
-    justify-content: space-around;
+    padding: 6px;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
     gap: 10px;
-    margin-top: 15px;
+    width: 840px;
+    margin: 0 auto;
 }
 
 figure {
@@ -149,24 +217,26 @@ figure {
     font-size: small;
     padding: 2px;
     margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .img-box {
     width: 150px;
+    
 
 }
 
 .main-footer {
     background-color: var(--primary-color);
     display: grid;
-    padding: 10px;
+    padding: 2px;
     grid-template-columns: 1fr auto;
     justify-content: space-between;
     align-items: center;
     border: 1px white;
     color: white;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 12px;
 
 }
 
@@ -182,7 +252,6 @@ figure {
 .icon-box {
     width: 40;
     height: 40px;
-  
     display: flex;
     align-items: center;
     justify-content: center;
