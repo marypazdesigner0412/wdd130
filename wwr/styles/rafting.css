@@ -42,6 +42,10 @@ header, footer, main, section {
     list-style: none;
     text-decoration: none;
     display: flex;
+    align-content: space-between;
+    font-size: 1.5em;
+
+
     padding: 0;
 }
 
@@ -49,9 +53,8 @@ header, footer, main, section {
     text-decoration: none;
     color: var(--accent1-color);
     padding: 8px 15px;
-    border: 1px solid black;
-    background-color: white;
-    margin-left: -1px;
+    color: white;
+    
 
 }
 
