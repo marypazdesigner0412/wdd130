@@ -48,7 +48,7 @@ header, footer, main, section {
     text-decoration: none;
     display: flex;
     align-content: space-between;
-    font-size: 1.5em;
+    font-size: 1.4em;
 
 
     padding: 0;
@@ -57,7 +57,8 @@ header, footer, main, section {
 .nav-links li a {
     text-decoration: none;
     padding: 8px 15px;
-    color: white;
+    color: var(--accent1-color);
+    font-style: bold;
     
 
 }
@@ -128,8 +129,8 @@ p {
 }
 
 .small-image {
-    width: 200;
-    flex-shrink: 0;
+    width: 200px;
+    flex-shrink: 0px;
 }
 
 .history {text-align: center;
@@ -197,7 +198,6 @@ p {
     max-width: 840px;
     padding: 6px;
     margin-bottom: 15px;
-    width: 840px;
     margin: 0 auto;
 }
 
@@ -251,6 +251,7 @@ figure {
 
 .socialmedia {
     margin-right: 20px;
+    align-content: right;
     display: flex;
     gap: 15px;
 }
@@ -260,11 +261,11 @@ figure {
 }
 
 .icon-box {
-    width: 40;
+    width: 40px;
     height: 40px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: right;
+    justify-content: right;
 }
 
 
