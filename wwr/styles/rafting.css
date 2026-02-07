@@ -253,7 +253,7 @@ figure {
 
 .socialmedia {
     margin-right: 20px;
-    align-content: ;
+    
     display: flex;
     gap: 15px;
 }
@@ -266,7 +266,7 @@ figure {
     width: 40px;
     height: 40px;
     display: flex;
-    align-items: ;
+    
     justify-content: right;
 }
 
