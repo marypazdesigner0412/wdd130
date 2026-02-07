@@ -58,7 +58,7 @@ header, footer, main, section {
     text-decoration: none;
     padding: 8px 15px;
     color: var(--accent1-color);
-    font-style: bold;
+    font-weight: bold;
     
 
 }
@@ -98,9 +98,10 @@ header, footer, main, section {
 .hero article {
     position:absolute;
     background-color: var(--accent2-color);
+    opacity: 0.9;
     margin-left: 25px;
     margin-right: 25px;
-    margin-top: -250px;
+    margin-top: -190px;
 
 
 }
@@ -110,16 +111,17 @@ header, footer, main, section {
     float: right;
     width: 200px;
     border: var(--accent1-color);
-    margin: 35px;
+    margin: 20px;
     box-shadow: 0 0 10px var(--accent1-color);
-    
-    margin-top: 10px;
+
+    margin-top: 15px;
     margin-right: 10px;
 
 }
 
 p {
     display: block;
+    text-align: left;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -130,7 +132,7 @@ p {
 
 .small-image {
     width: 200px;
-    flex-shrink: 0px;
+    
 }
 
 .history {text-align: center;
@@ -251,7 +253,7 @@ figure {
 
 .socialmedia {
     margin-right: 20px;
-    align-content: right;
+    align-content: ;
     display: flex;
     gap: 15px;
 }
@@ -264,7 +266,7 @@ figure {
     width: 40px;
     height: 40px;
     display: flex;
-    align-items: right;
+    align-items: ;
     justify-content: right;
 }
 
