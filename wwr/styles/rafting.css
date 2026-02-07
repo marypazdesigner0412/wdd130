@@ -5,11 +5,13 @@
     --heading-font: Arial, Helvetica serif; 
     --body-font: Arial, Helvetica, sans-serif;
 }
+
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
-    box-sizing: border-box;
+    box-sizing:border-box;
+    
 }
 
 body {
@@ -54,7 +56,6 @@ header, footer, main, section {
 
 .nav-links li a {
     text-decoration: none;
-    color: var(--accent1-color);
     padding: 8px 15px;
     color: white;
     
@@ -66,7 +67,7 @@ header, footer, main, section {
     text-align: center;
     margin-top: 10px;
     padding: 0px;
-    text-align: left;
+    
 
 }
 
@@ -120,7 +121,7 @@ header, footer, main, section {
     border: var(--accent1-color);
     margin: 35px;
     box-shadow: 0 0 10px var(--accent1-color);
-    margin: 0 auto;
+    
     margin-top: 10px;
     margin-right: 10px;
 
@@ -146,7 +147,7 @@ p {
     padding: 10px;
     margin: 8px auto;
     margin-top: 455px;
-    text-align: center;
+    
     
 }
 
