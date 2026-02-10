@@ -1,0 +1,20 @@
+table {
+  
+    border: 2px solid grey;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+th, td {
+    border: 1px solid gray;
+    padding: 8px 10px;
+    text-align: center;
+}
+
+thead th,
+tfoot tr {
+    background-color: #72a4c3;
+    color: #222222;
+    font-weight: 700;
+}
