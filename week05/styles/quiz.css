@@ -1,0 +1,116 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 700px;
+    height: 850px;
+    background-color: #93c4da;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+h1 {
+    margin: .5rem;
+    margin-left: .8rem;
+}
+
+legend {
+    font-size: 1.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+form {
+    margin: 1rem;
+    height: 750px;
+    border: 1px solid rgba(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #d2dfe2;
+    color: #111;
+}
+input, selec, textarea {
+    padding: 1rem;
+    width: 350px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    width: 100%;
+}
+
+input[type="text"] {
+    margin: 10px;
+    width: 100%;
+}
+
+input[type="number"] {
+    margin: 10px;
+    width: 100%
+
+}
+
+button {
+    background-color: rgb(1, 33, 88);
+    padding: 15px;
+    color: #fff;
+    margin-left: 1px;
+    margin-top: 10px;
+    display: block;
+    border-radius: .5rem;
+    width: 100%
+
+}
+
+code {
+    background-color: #111;
+    color: rgba(242, 238, 238, 0.9);
+    text-align: left;
+}
+
+code.box {
+    margin-left: 60px;
+    width: 91%;
+}
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(000 /10%);
+    padding: 1rem;
+}
+
+.quiz-item {
+    border: none;
+    display: grid;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+label {
+    font-weight: 500px;
+}
+select {
+    padding: 10px 10px;
+    font-size: 1rem;
+    margin: 10px;
+    margin-left: 1rem;
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    margin: 12px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    
+}
+
+footer {
+    text-align: center;
+    margin-top: 25px;
+    color: black;
+    font-size: 1rem;
+}
+
+
