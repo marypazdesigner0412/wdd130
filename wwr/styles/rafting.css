@@ -351,7 +351,6 @@ button {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-row: row;
-    gap: 5px;
     justify-content: space-around;
     gap: 15px;
     max-width: 840px;
@@ -391,10 +390,10 @@ textarea {
     gap: 15px;
     margin-top: 10px;
     margin-bottom: 20px;
-    
+
 }
 
-input[id=news] {
+input[id="news"] {
     padding: ;
 }
 
@@ -402,7 +401,7 @@ input[id=news] {
 .form-row {
     display: grid;
     grid-template-columns: 100px 1fr;
-    gap: 15;
+    gap: 10px;
     margin-bottom: 15px;
 }
 
