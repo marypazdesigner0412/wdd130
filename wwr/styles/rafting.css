@@ -165,7 +165,7 @@ p {
 }
 
 .history-image {
-    color:#264653;
+    color: var(--accent1-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -380,21 +380,25 @@ textarea {
 }
 
 .radio-group label {
-    display: block; /* Stacks radios vertically as shown in image_2d6eb6.png */
-    margin-bottom: 20px;
+    display: block; /* Stacks radios vertically*/
+    margin-bottom: 10px;
 }
 
 .checkbox-row {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 8px;
     margin-top: 10px;
     margin-bottom: 20px;
 
 }
 
+.checkbox-row label {
+    cursor:pointer
+}
+
 input[id="news"] {
-    padding: ;
+    padding: 5px;
 }
 
 
