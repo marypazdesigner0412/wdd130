@@ -2,6 +2,7 @@
     --primary-color: #24d7eb; /*ocean blue */
     --accent1-color: #264653; /* dark slate blue */
     --accent2-color: #eaa904; /* light golden yellow */
+    --accent3-color: #fcbd49;
     --heading-font: Arial, Helvetica serif; 
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -268,4 +269,143 @@ figure {
     justify-content: right;
 }
 
+/*Company Info */
+.company-info {
+    margin-top: 10px;
+}
 
+.company-info h1, p{
+    margin-top: 10px;
+    text-align: center;
+}
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.map-container img {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+iframe {
+    width: 450px;
+    height: 470px;
+
+}
+
+.form-item {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+input[type="text"], input[type="email"], textarea {
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.textarea-item {
+    align-items: start;
+}
+
+.textarea-item textarea {
+    height: 120px;
+}
+
+.radio-section {
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+
+.checkbox-item input {
+    margin-right: 10px;
+
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #b4e5f0;
+    border: 1px solid #999;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.employee-section {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 20px;
+    background-color: var(--accent3-color);
+}
+
+.employee-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row: row;
+    gap: 5px;
+    justify-content: space-around;
+    gap: 15px;
+    max-width: 840px;
+    padding: 5px;
+    margin-bottom: 15px;
+    margin: 0 auto;
+
+}
+
+.message-row {
+    align-items: start; /* Keeps 'Message' label at the top of the box */
+    margin-top: 10px;
+}
+
+textarea {
+    margin-top: 30px;
+    padding: 20px;
+    margin-left: -100px;
+    border: 1px solid #999;
+    text-align: left;
+}
+
+/* Aligning Radios and Checkbox to start where the Inputs start */
+.radio-group, .checkbox-row {
+    margin-left: 5px; /* Matches the width of the labels */
+    text-align: left;
+}
+
+.radio-group label {
+    display: block; /* Stacks radios vertically as shown in image_2d6eb6.png */
+    margin-bottom: 20px;
+}
+
+.checkbox-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+input[id=news] {
+    padding: ;
+}
+
+
+.form-row {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 15;
+    margin-bottom: 15px;
+}
+
+.form-row .purpose-row {
+    align-items: start;
+}
