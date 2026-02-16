@@ -147,6 +147,33 @@ header, footer, main, section {
     background: var(--accent3-color);
 }
 
+table.trip-summary { width: 100%;
+    border-collapse: collapse;
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+    margin-top: 12px; 
+} 
+
+table.trip-summary th, table.trip-summary td {
+    border: 1px solid #ccc;
+    padding: 12px 15px;
+    text-align: center; 
+
+} 
+
+table.trip-summary th {
+    background-color: #f4f4f4;
+    font-weight: 600; 
+
+} 
+
+table.trip-summary tbody tr:nth-child(even) {
+    background-color: #fafafa; 
+
+} table.trip-summary tbody tr:hover {
+    background-color: #e0f7fa;
+} 
+
 .main-footer {
     background-color: var(--primary-color);
     display: grid;
@@ -157,7 +184,7 @@ header, footer, main, section {
     border: 1px solid white;
     color: var(--accent1-color);
     text-align: center;
-    margin-top: 12px;
+    margin-top: 18px;
 
 }
 
