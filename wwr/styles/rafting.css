@@ -1,6 +1,6 @@
 :root {
     --primary-color: #24d7eb; /*ocean blue */
-    --accent1-color: #264653; /* dark slate blue */
+    --accent1-color: #1b323b; /* dark slate blue */
     --accent2-color: #eaa904; /* light golden yellow */
     --accent3-color: #fcbd49;
     --heading-font: Arial, Helvetica serif; 
@@ -35,14 +35,12 @@ header, footer, main, section {
 .main-header {
     background-color: var(--primary-color);
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    padding: 40px;
+    padding: 1rem 2rem;
 }
 
 .logo {
-    width: 100px;
-    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,6 +52,7 @@ header, footer, main, section {
     display: flex;
     align-content: space-between;
     font-size: 1.3em;
+    gap: 1.5rem;
 
 
     padding: 0;
@@ -61,7 +60,7 @@ header, footer, main, section {
 
 .nav-links li a {
     text-decoration: none;
-    padding: 8px 15px;
+    padding: 0.5rem;
     color: var(--accent1-color);
     font-weight: bold;
     
