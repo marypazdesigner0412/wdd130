@@ -59,11 +59,9 @@ header, footer, main, section {
 
 .nav-links li a {
     text-decoration: none;
-    padding: 0.5rem;
+    padding: 8px 15px;
     color: var(--accent1-color);
     font-weight: bold;
-    
-
 }
 
 .hero {
