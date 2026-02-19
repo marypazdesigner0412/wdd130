@@ -449,7 +449,7 @@ input[id="news"] {
     background-color: rgba(0, 0, 0, 0.5);
     object-fit: cover;
     width: 840px;
-    margin-bottom: 800px;
+    margin-bottom: 2px;
     
 }
 
@@ -589,4 +589,3 @@ input[id="news"] {
     align-items: center;
     gap: 10px
 }
-
